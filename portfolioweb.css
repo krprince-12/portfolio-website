@@ -1,0 +1,91 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background-color: #1f2424;
+    font-family: "poppins",sans-serif;
+    color: aliceblue;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:25px 10px;
+    position:relative;
+}
+.logo{
+    color:skyblue;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 27px;
+    cursor: default;
+    padding-right: 30px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding:0px 16px;
+    font-weight: 600;
+    transition:0.3s all;
+}
+.navbar a:hover,
+.navbar a.active{
+    color:skyblue;
+}
+.hero-container{
+    display: flex;
+    padding:25px 10%;
+    justify-content: center;
+    align-items: center;
+}
+.info-side{
+    font-size: 30px;
+    font-weight: 700;
+    margin:10px 0;
+    letter-spacing: 1px;
+
+}
+.info-side h1{
+    font-size: 75px;
+    letter-spacing: 1px;
+    font-weight: 700;
+
+}
+.info-side h3 ,
+.info-side h5 span{
+color:skyblue;
+
+}
+
+img{
+    height:250px;
+    width:300px;
+    border-radius: 50%;
+    border-style: hidden;
+}
+i{
+    position: relative;
+    border:2px solid skyblue;
+    padding:15px;
+    border-radius: 50%;
+    color:skyblue;
+    margin:0px 8px;
+    transition: 0.3ms;
+
+}
+i:hover{
+    box-shadow: 0  0 20px skyblue;
+}
+button{
+    background-color: rgb(74, 135, 159);
+    margin-top: 50px;
+    padding:20px 70px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .3s;
+    box-shadow: 0 0 15px rgb(2, 54, 75);
+}
